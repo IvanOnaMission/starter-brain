@@ -34,6 +34,7 @@ Ask one at a time. Wait for the answer before the next one. After an answer, ask
 Put each answer in the file the map in `CLAUDE.md` points to:
 
 - Replace each `{{placeholder}}` with what they said, in short plain sentences, using their words where you can.
+- Put each fact in one place only, even when it came up in two answers. Use the map to decide which file owns it.
 - Leave a `{{placeholder}}` in place when they didn't answer it. Never make anything up.
 - Delete a table row or section only if they said it doesn't apply to them.
 - Never create a folder. A new file is fine inside an existing folder if it's a new subject; add a row to that folder's `context.md`.
@@ -52,12 +53,12 @@ Ask for a real job to try it on: a customer message to reply to, a quote to foll
 
 ## 7. Finish
 
-Give them five things to try, adapted to their business:
+Give them five things to try. Fill every bracket with their real job types, customers and tools from the interview, so each one is ready to copy:
 
 1. "Reply to this enquiry: [paste it]"
-2. "Write a follow-up for the quote I sent [customer] for [job]"
-3. "How much would we charge for [job]?"
+2. "Write a follow-up for the quote I sent [customer] for [one of their job types]"
+3. "How much would we charge for [one of their job types]?"
 4. "Save this: [a new rule or price]"
-5. "What's our warranty on [job]?"
+5. "What's our warranty on [one of their job types]?"
 
 Tell them that whenever they correct you, they can say "save that" and it'll stick, and that running `/setup` again only asks about what's still blank.
